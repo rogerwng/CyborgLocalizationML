@@ -8,3 +8,5 @@ A huge issue with these systems is localization - the ability for operators to t
 My contribution is an analysis of various machine learning models (regression trees) in predicting and transmitting the systems location based on data colleted from an onboard inertial measurement unit (IMU). With a best accuracy of about 0.75 on extremely limited experimental data, regression tree models may be an effective and efficient manner of localization.  
 
 Please read the attached research paper which details my experiments and procedure.  
+
+EDIT: Looking back at this project in 2024, I'd like to point out that the scores computed by all models were in the format of Mean Squared Error, instead of Accuracy. I'd love to go back and work through the dataset to reevaluate my methods.
